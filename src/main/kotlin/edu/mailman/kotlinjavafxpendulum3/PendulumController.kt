@@ -11,7 +11,7 @@ import kotlin.math.sin
 
 const val g = 9.8  // acceleration of gravity
 const val dt = 0.1  // time increment
-const val length = 150.0  // length of the string
+const val length = 400.0  // length of the string
 
 var theta = Math.PI / 8  // angle of the string
 var velocity = 0.0  // velocity of the ball
