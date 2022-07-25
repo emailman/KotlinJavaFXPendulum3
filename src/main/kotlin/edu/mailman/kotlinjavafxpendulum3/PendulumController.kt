@@ -41,7 +41,5 @@ class PendulumController {
         // Calculate the new center of the ball
         cirBall.centerX = length * sin(theta)
         cirBall.centerY = length * cos(theta)
-
-        // println(velocity)
     }
 }

@@ -3,10 +3,14 @@
 <?import javafx.scene.*?>
 <?import javafx.scene.shape.*?>
 
-<Group translateX="250.0" translateY="30.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.mailman.kotlinjavafxpendulum3.PendulumController">
+<Group translateX="250.0" translateY="30.0" xmlns="http://javafx.com/javafx/16"
+    xmlns:fx="http://javafx.com/fxml/1"
+    fx:controller="edu.mailman.kotlinjavafxpendulum3.PendulumController">
    <children>
       <Line fx:id="linString" />
-      <Circle fx:id="cirHub" fill="#c8c8c8" radius="10.0" stroke="BLACK" strokeType="INSIDE" />
-      <Circle fx:id="cirBall" fill="YELLOW" radius="40.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="cirHub" fill="#c8c8c8" radius="10.0" stroke="BLACK"
+        strokeType="INSIDE" />
+      <Circle fx:id="cirBall" fill="YELLOW" radius="40.0" stroke="BLACK"
+        strokeType="INSIDE" />
    </children>
 </Group>
